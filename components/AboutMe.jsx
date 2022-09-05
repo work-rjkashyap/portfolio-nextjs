@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import {
 	TbBrandBootstrap,
@@ -54,12 +55,9 @@ export default function AboutMe() {
 					</p>
 				</div>
 				<div className='md:w-[25%] my-3 self-center '>
-					<Image
+					<img
 						src='https://ik.imagekit.io/rjkashyap05/portfolio/76556671_HsffWihZJ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662403898954'
 						alt='Rajeshwar Kashyap'
-						width={426}
-						height={426}
-						unoptimized={true}
 						className='w-[95%] mx-auto rounded-lg Profile-pick ease-in duration-300'
 					/>
 				</div>
