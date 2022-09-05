@@ -59,8 +59,7 @@ export default function AboutMe() {
 						alt='Rajeshwar Kashyap'
 						width={426}
 						height={426}
-						// layout={'responsive'}
-						// unoptimized={true}
+						unoptimized={true}
 						className='w-[95%] mx-auto rounded-lg Profile-pick ease-in duration-300'
 					/>
 				</div>

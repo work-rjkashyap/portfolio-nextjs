@@ -11,7 +11,6 @@ import { MdMarkEmailRead } from 'react-icons/md';
 import Toggle from './ThemeToggle';
 import { useTheme } from 'next-themes';
 import link from '../utils/social.json';
-import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 
