@@ -8,7 +8,7 @@ const nextConfig = {
 		},
 	},
 	basePath: '',
-	assetPrefix: '',
+	assetPrefix: '/portfolio-nextjs/',
 };
 
 module.exports = nextConfig;
