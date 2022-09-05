@@ -4,7 +4,10 @@ const nextConfig = {
 	swcMinify: true,
 	images: {
 		domains: ['ik.imagekit.io'],
+		unoptimized: true,
 	},
+	basePath: '',
+	assetPrefix: '',
 };
 
 module.exports = nextConfig;
